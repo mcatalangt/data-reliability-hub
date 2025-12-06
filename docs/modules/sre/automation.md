@@ -1,7 +1,5 @@
 # SRE AUTOMATION
 
-# Automation Playbooks
-
 Colección de playbooks de **Ansible** y scripts de **Python** para la gestión de configuración y remediación automática de incidentes.
 
 ## 🤖 Casos de Uso

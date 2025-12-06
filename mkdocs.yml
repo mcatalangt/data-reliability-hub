@@ -60,6 +60,9 @@ markdown_extensions:
   - admonition             # Para notas de advertencia/info (cajas de colores)
   - pymdownx.details       # Para secciones colapsables
   - pymdownx.superfences   # Para diagramas y código avanzado
+  - toc:
+    permalink: true        # Pone un símbolo ¶ al lado de cada título para copiar el link
+    toc_depth: 3
   - pymdownx.tabbed:       # Pestañas dentro del contenido
       alternate_style: true
   - pymdownx.highlight:    # Resaltado de sintaxis de código
@@ -67,9 +70,6 @@ markdown_extensions:
   - pymdownx.emoji:        # Emojis :rocket:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
-  - toc:
-      permalink: true        # Pone un símbolo ¶ al lado de cada título para copiar el link
-      toc_depth: 3
 
 # 5. NAVEGACIÓN (TU MENÚ)
 # Aquí mapeas el título del menú -> archivo en la carpeta docs/
