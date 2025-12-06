@@ -5,7 +5,9 @@ site_author: Marco Tulio Catalán Funes
 site_url: https://mcatalangt.github.io/data-reliability-hub/
 repo_url: https://github.com/mcatalangt/data-reliability-hub
 repo_name: data-reliability-hub
-
+# HOJAS DE ESTILO EXTRA
+extra_css:
+  - stylesheets/extra.css
 # 2. TEMA (APARIENCIA)
 theme:
   name: material
@@ -29,10 +31,10 @@ theme:
   palette: 
     # Modo Claro (Por defecto)
     - scheme: default
-      primary: grey          # Color principal (Barra superior)
-      accent: purple         # Color de enlaces y botones
+      primary: indigo          # Color principal (Barra superior)
+      accent: blue         # Color de enlaces y botones
       toggle:
-        icon: material/brightness-7
+        icon: material/toggle-switch-off-outline
         name: Switch to dark mode
 
     # Modo Oscuro (Opcional para el usuario)
@@ -43,6 +45,9 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
 
+  font:
+    text: Roboto
+    code: Roboto Mono
 # 3. PLUGINS (FUNCIONALIDADES EXTRA)
 plugins:
   - search                 # Barra de búsqueda (Obligatorio)

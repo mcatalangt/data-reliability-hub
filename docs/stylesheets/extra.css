@@ -1,0 +1,24 @@
+/* docs/stylesheets/extra.css */
+
+/* Color azul Google para los títulos */
+h1, h2, h3, h4 {
+    color: #1a73e8 !important; /* El azul oficial de Google */
+    font-weight: 500;
+}
+
+/* Opcional: Hacer la barra superior blanca con texto azul (Estilo Google Docs puro) */
+/* Si prefieres la barra azul sólida, borra este bloque de abajo */
+/*
+.md-header {
+  background-color: #ffffff !important;
+  color: #1a73e8 !important;
+  border-bottom: 1px solid #e0e0e0;
+}
+.md-header__title {
+    color: #1a73e8 !important;
+}
+.md-tabs {
+    background-color: #f1f3f4 !important; /* Gris muy claro */
+    color: #5f6368 !important;
+}
+*/
