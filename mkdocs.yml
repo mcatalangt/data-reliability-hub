@@ -29,7 +29,7 @@ theme:
   palette: 
     # Modo Claro (Por defecto)
     - scheme: default
-      primary: indigo          # Color principal (Barra superior)
+      primary: white          # Color principal (Barra superior)
       accent: blue         # Color de enlaces y botones
       toggle:
         icon: material/toggle-switch-off-outline
