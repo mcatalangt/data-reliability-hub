@@ -29,7 +29,7 @@ theme:
   palette: 
     # Modo Claro (Por defecto)
     - scheme: default
-      primary: blue grey          # Color principal (Barra superior)
+      primary: grey          # Color principal (Barra superior)
       accent: purple         # Color de enlaces y botones
       toggle:
         icon: material/brightness-7
