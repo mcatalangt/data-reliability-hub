@@ -68,14 +68,14 @@ nav:
   - Home: index.md
   
   - 'Reliability Standards':
-      - 'Infrastructure as Code': modules/iac.md
-      - 'Observability Stack': modules/observability.md
-      - 'Automation Playbooks': modules/automation.md
+      - 'Infrastructure as Code': modules/sre/iac.md
+      - 'Observability Stack': modules/sre/observability.md
+      - 'Automation Playbooks': modules/sre/automation.md
   
   - 'Data Platform Standards':
-      - 'Infrastructure as Code': modules/iac.md
-      - 'Observability Stack': modules/observability.md
-      - 'Automation Playbooks': modules/automation.md
+      - 'Infrastructure as Code': modules/data/iac.md
+      - 'Observability Stack': modules/data/observability.md
+      - 'Automation Playbooks': modules/data/automation.md
 
   - 'Engineering Blog':
       - blog/index.md  # El índice del blog se genera solo
