@@ -1,0 +1,3 @@
+[submodule "01-iac-postgresql/gcp-secure-baseline"]
+	path = 01-iac-postgresql/gcp-secure-baseline
+	url = https://github.com/mcatalangt/iac_gcp_postgresql.git
