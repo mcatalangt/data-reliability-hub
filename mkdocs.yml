@@ -37,8 +37,8 @@ theme:
 
     # Modo Oscuro (Opcional para el usuario)
     - scheme: slate
-      primary: grey
-      accent: lime
+      primary: white
+      accent: blue
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
