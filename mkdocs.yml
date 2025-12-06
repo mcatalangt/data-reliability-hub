@@ -1,10 +1,10 @@
 # 1. INFORMACIÓN BÁSICA
-site_name: Reliability Hub
+site_name: Data Reliability Hub
 site_description: Centralized SRE & Data Engineering Standards
 site_author: Marco Catalán
-site_url: https://marcocatalan.github.io/reliability-hub/
-repo_url: https://github.com/marcocatalan/reliability-hub
-repo_name: reliability-hub
+site_url: https://mcatalangt.github.io/Data-Reliability-Hub/
+repo_url: https://github.com/mcatalangt/data-reliability-hub
+repo_name: data-reliability-hub
 
 # 2. TEMA (APARIENCIA)
 theme:
