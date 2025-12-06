@@ -1,3 +1,12 @@
 [submodule "01-iac-postgresql/gcp-secure-baseline"]
 	path = 01-iac-postgresql/gcp-secure-baseline
 	url = https://github.com/mcatalangt/iac_gcp_postgresql.git
+[submodule "02-iac-prefect/gcp-secure-baseline"]
+	path = 02-iac-prefect/gcp-secure-baseline
+	url = https://github.com/mcatalangt/iac_gcp_prefect.git
+[submodule "03-iac-event-driven/gcp-secure-baseline"]
+	path = 03-iac-event-driven/gcp-secure-baseline
+	url = https://github.com/mcatalangt/IaC_GCP_PubSub.git
+[submodule "04-iac-kubernetes/gke-secure-baseline"]
+	path = 04-iac-kubernetes/gke-secure-baseline
+	url = https://github.com/mcatalangt/iac-kubernetes-gke.git
