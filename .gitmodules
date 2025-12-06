@@ -10,3 +10,6 @@
 [submodule "04-iac-kubernetes/gke-secure-baseline"]
 	path = 04-iac-kubernetes/gke-secure-baseline
 	url = https://github.com/mcatalangt/iac-kubernetes-gke.git
+[submodule "05-iac-observability/gke-secure-baseline"]
+	path = 05-iac-observability/gke-secure-baseline
+	url = https://github.com/mcatalangt/iac-observability.git
