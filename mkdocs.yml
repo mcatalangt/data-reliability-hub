@@ -1,29 +1,79 @@
+# 1. INFORMACIÓN BÁSICA
 site_name: Reliability Hub
-site_url: https://marcocatalan.github.io/reliability-hub/
-site_author: Marco Catalán
 site_description: Centralized SRE & Data Engineering Standards
+site_author: Marco Catalán
+site_url: https://marcocatalan.github.io/reliability-hub/
+repo_url: https://github.com/marcocatalan/reliability-hub
+repo_name: reliability-hub
 
+# 2. TEMA (APARIENCIA)
 theme:
   name: material
+  language: en
+  # Logo e Ícono (puedes usar emojis o rutas a imágenes)
+  icon:
+    logo: material/server-network
+    repo: fontawesome/brands/github
+  
+  # Características de la interfaz (estilo Google Cloud Docs)
   features:
-    - navigation.tabs        # Pestañas estilo Google
-    - navigation.sections
-    - toc.integrate
-  palette: 
-    - scheme: default
-      primary: teal          # Color profesional
-      accent: purple
+    - navigation.tabs        # Pestañas superiores en lugar de menú lateral
+    - navigation.sections    # Agrupa secciones en el menú
+    - navigation.top         # Botón "Volver arriba"
+    - search.suggest         # Sugerencias mientras escribes en la búsqueda
+    - search.highlight       # Resalta lo que buscas
+    - content.code.copy      # Botón de copiar en bloques de código
 
+  # Paleta de Colores (Modo Claro y Oscuro)
+  palette: 
+    # Modo Claro (Por defecto)
+    - scheme: default
+      primary: teal          # Color principal (Barra superior)
+      accent: purple         # Color de enlaces y botones
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Modo Oscuro (Opcional para el usuario)
+    - scheme: slate
+      primary: teal
+      accent: lime
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+# 3. PLUGINS (FUNCIONALIDADES EXTRA)
 plugins:
-  - search
-  - blog:                    # ¡Activa el modo Blog!
+  - search                 # Barra de búsqueda (Obligatorio)
+  - blog:                  # Tu Blog Técnico
       blog_dir: blog
       post_url_date_format: yyyy/MM/dd
 
+# 4. EXTENSIONES DE MARKDOWN (PARA QUE SE VEA PRO)
+markdown_extensions:
+  - admonition             # Para notas de advertencia/info (cajas de colores)
+  - pymdownx.details       # Para secciones colapsables
+  - pymdownx.superfences   # Para diagramas y código avanzado
+  - pymdownx.tabbed:       # Pestañas dentro del contenido
+      alternate_style: true
+  - pymdownx.highlight:    # Resaltado de sintaxis de código
+      anchor_linenums: true
+  - pymdownx.emoji:        # Emojis :rocket:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+# 5. NAVEGACIÓN (TU MENÚ)
+# Aquí mapeas el título del menú -> archivo en la carpeta docs/
 nav:
   - Home: index.md
-  - Blog: blog/
-  - Modules:
+  
+  - 'Reliability Standards':
       - 'Infrastructure as Code': modules/iac.md
       - 'Observability Stack': modules/observability.md
-  - 'About Me': about.md
+      - 'Automation Playbooks': modules/automation.md
+
+  - 'Engineering Blog':
+      - blog/index.md  # El índice del blog se genera solo
+
+  - 'About':
+      - 'My Profile': about.md
