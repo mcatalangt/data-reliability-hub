@@ -23,12 +23,13 @@ theme:
     - search.suggest         # Sugerencias mientras escribes en la búsqueda
     - search.highlight       # Resalta lo que buscas
     - content.code.copy      # Botón de copiar en bloques de código
+    - toc.follow
 
   # Paleta de Colores (Modo Claro y Oscuro)
   palette: 
     # Modo Claro (Por defecto)
     - scheme: default
-      primary: blue          # Color principal (Barra superior)
+      primary: gray          # Color principal (Barra superior)
       accent: purple         # Color de enlaces y botones
       toggle:
         icon: material/brightness-7
@@ -61,18 +62,21 @@ markdown_extensions:
   - pymdownx.emoji:        # Emojis :rocket:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - toc:
+      permalink: true        # Pone un símbolo ¶ al lado de cada título para copiar el link
+      toc_depth: 3
 
 # 5. NAVEGACIÓN (TU MENÚ)
 # Aquí mapeas el título del menú -> archivo en la carpeta docs/
 nav:
   - Home: index.md
   
-  - 'Reliability Standards':
+  - 'Google SRE Standards':
       - 'Infrastructure as Code': modules/sre/iac.md
       - 'Observability Stack': modules/sre/observability.md
       - 'Automation Playbooks': modules/sre/automation.md
   
-  - 'Data Platform Standards':
+  - 'Google Data Platform Standards':
       - 'Infrastructure as Code': modules/data/iac.md
       - 'Observability Stack': modules/data/observability.md
       - 'Automation Playbooks': modules/data/automation.md
