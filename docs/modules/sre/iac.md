@@ -1,6 +1,4 @@
-# SRE IAC
-
-# Infrastructure as Code (IaC)
+# SRE Infrastructure as Code (IaC)
 
 Este módulo centraliza las plantillas de **Terraform** diseñadas para desplegar infraestructura segura y compatible con HIPAA en Google Cloud y AWS.
 

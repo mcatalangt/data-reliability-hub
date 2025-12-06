@@ -1,24 +1,51 @@
 /* docs/stylesheets/extra.css */
 
-/* Color azul Google para los títulos */
-h1, h2, h3, h4 {
-    color: #1a73e8 !important; /* El azul oficial de Google */
+/* --- 1. BARRA SUPERIOR (HEADER) BLANCA --- */
+.md-header {
+  background-color: #ffffff !important; /* Fondo blanco */
+  color: #5f6368 !important;            /* Iconos y texto en gris oscuro (Google Grey) */
+  box-shadow: none !important;          /* Quitar la sombra 3D */
+  border-bottom: 1px solid #dadce0;     /* La línea gris sutil de separación */
+}
+
+/* --- 2. TÍTULO DEL SITIO (AZUL GOOGLE) --- */
+/* Esto hace que "Data Reliability Hub" arriba a la izquierda sea azul */
+.md-header__title, .md-header__button {
+    color: #1a73e8 !important; /* Azul Google */
+}
+
+/* Color de los iconos (Búsqueda, GitHub) en gris para no saturar */
+.md-search__input {
+    background-color: #f1f3f4 !important; /* Gris muy claro para la barra de búsqueda */
+    color: #3c4043 !important;
+}
+
+/* --- 3. PESTAÑAS DE NAVEGACIÓN (TABS) --- */
+/* Si usas pestañas, que sean blancas también */
+.md-tabs {
+    background-color: #ffffff !important;
+    color: #5f6368 !important;
+    border-bottom: 1px solid #dadce0;
+}
+
+/* Pestaña activa o al pasar el mouse: Azul */
+.md-tabs__link--active, .md-tabs__link:hover {
+    color: #1a73e8 !important;
     font-weight: 500;
 }
 
-/* Opcional: Hacer la barra superior blanca con texto azul (Estilo Google Docs puro) */
-/* Si prefieres la barra azul sólida, borra este bloque de abajo */
-/*
-.md-header {
-  background-color: #ffffff !important;
-  color: #1a73e8 !important;
-  border-bottom: 1px solid #e0e0e0;
-}
-.md-header__title {
+/* --- 4. TÍTULOS DEL CONTENIDO (H1, H2, H3) --- */
+/* Títulos dentro de tus documentos en Azul */
+h1, h2, h3, h4 {
     color: #1a73e8 !important;
+    font-family: 'Google Sans', 'Roboto', sans-serif; /* Intenta usar la fuente Google */
 }
-.md-tabs {
-    background-color: #f1f3f4 !important; /* Gris muy claro */
-    color: #5f6368 !important;
+
+/* --- 5. AJUSTES MÓVILES --- */
+/* Asegurar que en celular se vea bien */
+@media screen and (max-width: 76.1875em) {
+    .md-nav--primary .md-nav__title {
+        background-color: #1a73e8 !important; /* En móvil, el menú lateral sí en azul */
+        color: white !important;
+    }
 }
-*/
