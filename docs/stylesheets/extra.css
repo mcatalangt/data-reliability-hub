@@ -37,31 +37,18 @@ h1, h2, h3 {
     /* 1. Altura: Aumenta este valor para hacerlo más grande.
        El valor por defecto es pequeño (aprox 24px).
        Prueba con 48px, 56px o incluso 64px. */
-    height: 80px !important; 
-
+    /*height: 80px !important; */
+    overflow: visible !important;
+    /* Le decimos que su altura se adapte al contenido */
+    height: auto !important;
     /* 2. Ancho automático: Esto asegura que el logo no se deforme */
     width: auto !important;
-
+    margin-right: 8px !important;
     /* 3. (Opcional) Ajuste vertical fino.
        Si al agrandarlo se ve muy arriba o muy abajo respecto al texto,
        descomenta la línea de abajo y juega con valores negativos (subir)
        o positivos (bajar) de margen. */
     /* margin-top: -4px !important; */
-}
-
-/* 1. El Contenedor (La "caja" del botón donde vive el logo) */
-.md-header__button.md-logo {
-    /* Le decimos que NO oculte lo que se salga de sus bordes */
-    overflow: visible !important;
-    /* Le decimos que su altura se adapte al contenido */
-    height: auto !important;
-    /* A veces el ancho también está restringido */
-    width: auto !important;
-
-    /* --- NUEVA LÍNEA PARA PEGARLO AL TÍTULO --- */
-    /* El valor por defecto es grande (aprox 24px). */
-    /* Prueba con 8px, 4px o incluso 0px hasta que te guste la distancia. */
-    margin-right: 8px !important;
 }
 
 /* (Opcional) Si el logo queda muy pegado al borde izquierdo en móvil */
