@@ -14,7 +14,7 @@ theme:
   # Logo e Ícono (puedes usar emojis o rutas a imágenes)
   icon:
     repo: fontawesome/brands/github
-  favicon: assets/logo.png
+  favicon: assets/logoblanco.png
   # Características de la interfaz (estilo Google Cloud Docs)
   features:
     - navigation.tabs        # Pestañas superiores en lugar de menú lateral
