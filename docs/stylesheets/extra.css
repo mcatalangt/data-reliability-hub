@@ -49,6 +49,21 @@ h1, h2, h3 {
     /* margin-top: -4px !important; */
 }
 
+/* 1. El Contenedor (La "caja" del botón donde vive el logo) */
+.md-header__button.md-logo {
+    /* Le decimos que NO oculte lo que se salga de sus bordes */
+    overflow: visible !important;
+    /* Le decimos que su altura se adapte al contenido */
+    height: auto !important;
+    /* A veces el ancho también está restringido */
+    width: auto !important;
+
+    /* --- NUEVA LÍNEA PARA PEGARLO AL TÍTULO --- */
+    /* El valor por defecto es grande (aprox 24px). */
+    /* Prueba con 8px, 4px o incluso 0px hasta que te guste la distancia. */
+    margin-right: 8px !important;
+}
+
 /* (Opcional) Si el logo queda muy pegado al borde izquierdo en móvil */
 @media screen and (max-width: 76.1875em) {
     .md-header__button.md-logo {
