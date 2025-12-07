@@ -10,11 +10,11 @@ repo_name: data-reliability-hub
 theme:
   name: material
   language: en
+  logo: assets/logo.png
   # Logo e Ícono (puedes usar emojis o rutas a imágenes)
   icon:
-    logo: material/server-network
     repo: fontawesome/brands/github
-  
+  favicon: assets/logo.png
   # Características de la interfaz (estilo Google Cloud Docs)
   features:
     - navigation.tabs        # Pestañas superiores en lugar de menú lateral

@@ -10,7 +10,7 @@
 
 /* Forzar que el título del sitio sea Azul Google */
 .md-header__title, .md-header__button {
-    color: #0f3ac7 !important;
+    color: #185abc !important;
 }
 
 /* Pestañas (Tabs) en blanco también */
@@ -22,7 +22,7 @@
 
 /* Títulos H1, H2 azules */
 h1, h2, h3 {
-    color: #0f3ac7 !important;
+    color: #1a73e8 !important;
 }
 
 /* Arreglo para que los iconos de búsqueda se vean en fondo blanco */
