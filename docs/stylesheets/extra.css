@@ -40,7 +40,7 @@ h1, h2, h3 {
     /*height: 80px !important; */
     overflow: visible !important;
     /* Le decimos que su altura se adapte al contenido */
-    height: auto !important;
+    height: 80px !important;
     /* 2. Ancho automático: Esto asegura que el logo no se deforme */
     width: auto !important;
     margin-right: 8px !important;
