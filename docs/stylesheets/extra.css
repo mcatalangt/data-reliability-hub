@@ -29,3 +29,29 @@ h1, h2, h3 {
 .md-search__input {
     background-color: #f1f3f4 !important;
 }
+
+/* --- AJUSTE DE TAMAÑO DEL LOGO --- */
+
+/* Apuntamos específicamente a la imagen dentro del botón del logo */
+.md-header__button.md-logo img {
+    /* 1. Altura: Aumenta este valor para hacerlo más grande.
+       El valor por defecto es pequeño (aprox 24px).
+       Prueba con 48px, 56px o incluso 64px. */
+    height: 48px !important; 
+
+    /* 2. Ancho automático: Esto asegura que el logo no se deforme */
+    width: auto !important;
+
+    /* 3. (Opcional) Ajuste vertical fino.
+       Si al agrandarlo se ve muy arriba o muy abajo respecto al texto,
+       descomenta la línea de abajo y juega con valores negativos (subir)
+       o positivos (bajar) de margen. */
+    /* margin-top: -4px !important; */
+}
+
+/* (Opcional) Si el logo queda muy pegado al borde izquierdo en móvil */
+@media screen and (max-width: 76.1875em) {
+    .md-header__button.md-logo {
+        margin-left: 8px;
+    }
+}
