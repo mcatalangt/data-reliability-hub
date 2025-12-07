@@ -37,7 +37,7 @@ h1, h2, h3 {
     /* 1. Altura: Aumenta este valor para hacerlo más grande.
        El valor por defecto es pequeño (aprox 24px).
        Prueba con 48px, 56px o incluso 64px. */
-    height: 800px !important; 
+    height: 80px !important; 
 
     /* 2. Ancho automático: Esto asegura que el logo no se deforme */
     width: auto !important;
