@@ -14,7 +14,7 @@ El código está modularizado para permitir la reutilización en diferentes ento
 
 El código fuente completo se encuentra en el submódulo `data-reliability-hub` nuestro repositorio central.
 
-[Ver Código Fuente en GitHub :octicons-link-external-16:](https://github.com/mcatalangt/data-reliability-hub){ .md-button .md-button--primary }
+[Ver Código Fuente en GitHub :octicons-link-external-12:](https://github.com/mcatalangt/data-reliability-hub){ .md-button .md-button--primary }
 
 ---
 
@@ -22,8 +22,8 @@ El código fuente completo se encuentra en el submódulo `data-reliability-hub` 
 
 | Módulo | Descripción | Estado |
 | :--- | :--- | :---: |
-| `01-iac-postgresql` | Despliegue de BD PostgreSQL en GCE. | ✅ Stable |
-| `02-iac-prefect` | Despliegue de Workflow tool Prefect en GCE. | 🚧 Beta |
-| `03-iac-event-driven` | Despliegue de event driven (PubSub, Kafka, RabbitMQ). | 🚧 Beta |
-| `04-iac-kubernetes` | Despliegue de Kubernetes en GKE. | ✅ Stable |
-| `05-iac-observability` | Despliegue de Grafana Stack en GKE. | ✅ Beta |
+| `01-iac-postgresql` | Despliegue de BD PostgreSQL en GCE. | ✅ Stable | https://github.com/mcatalangt/data-reliability-hub/tree/main/01-iac-postgresql |
+| `02-iac-prefect` | Despliegue de Workflow tool Prefect en GCE. | 🚧 Beta | https://github.com/mcatalangt/data-reliability-hub/tree/main/02-iac-prefect |
+| `03-iac-event-driven` | Despliegue de event driven (PubSub, Kafka, RabbitMQ). | 🚧 Beta | https://github.com/mcatalangt/data-reliability-hub/tree/main/03-iac-event-driven |
+| `04-iac-kubernetes` | Despliegue de Kubernetes en GKE. | ✅ Stable | https://github.com/mcatalangt/data-reliability-hub/tree/main/04-iac-kubernetes |
+| `05-iac-observability` | Despliegue de Grafana Stack en GKE. | ✅ Beta | https://github.com/mcatalangt/data-reliability-hub/tree/main/05-iac-observability |
