@@ -85,3 +85,7 @@ h1, h2, h3 {
     /* Asegura que el borde del título también coincida */
     border-color: #58e81a !important;
 }
+
+.md-typeset details.info {
+    border-color: #1a73e8 !important;
+}
