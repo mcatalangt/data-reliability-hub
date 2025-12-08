@@ -1,4 +1,4 @@
-# SRE OBSERVABILITY
+# SRE - Observability with Grafana Stack
 
 Implementación de referencia para una pila de observabilidad completa ("Full Stack Observability") utilizando herramientas Open Source.
 

@@ -1,4 +1,4 @@
-# SRE AUTOMATION
+# SRE - Automation with Ansible
 
 Colección de playbooks de **Ansible** y scripts de **Python** para la gestión de configuración y remediación automática de incidentes.
 
