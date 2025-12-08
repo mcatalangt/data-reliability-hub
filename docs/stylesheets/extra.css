@@ -72,7 +72,7 @@ h1, h2, h3 {
     border-radius: 4px !important; 
     color: #1a73e8 !important;
     color-background: #ffffff !important;
-    border-width: 1px;
+    border-width: 0.5em;
 }
 
 /* Ajuste específico para el icono dentro del botón (para que no quede grande) */
@@ -83,7 +83,7 @@ h1, h2, h3 {
 }
 
 .md-button:hover {
-    background-color: #cdcdce !important;
+    background-color: #ececec !important;
 }
 
 .md-typeset .admonition.info > .admonition-title {
