@@ -72,6 +72,7 @@ h1, h2, h3 {
     border-radius: 4px !important; 
     color: #1a73e8 !important;
     color-background: #ffffff !important;
+    border-width: 1px;
 }
 
 /* Ajuste específico para el icono dentro del botón (para que no quede grande) */
@@ -81,6 +82,9 @@ h1, h2, h3 {
     color-background: #ffffff !important;
 }
 
+.md-button:hover {
+    background-color: #cdcdce !important;
+}
 
 .md-typeset .admonition.info > .admonition-title {
     /* Esto le pone el mismo color pero muy clarito (10% opacidad) para que se vea elegante */
