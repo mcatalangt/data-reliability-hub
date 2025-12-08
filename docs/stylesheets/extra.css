@@ -75,7 +75,8 @@ h1, h2, h3 {
 /* Ajuste específico para el icono dentro del botón (para que no quede grande) */
 .md-button .twemoji {
     height: 0.9em !important;
-    color-background: #1a73e8 !important;
+    color: #1a73e8 !important;
+    color-background: #ffffff !important;
 }
 
 
