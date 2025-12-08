@@ -2,8 +2,6 @@
   /* Forzar la barra superior (Header) a Blanco */
   --md-primary-fg-color: #ffffff;
   --md-primary-bg-color: #ffffff;
-  --md-admonition-icon--info: #1ae81a; 
-  --md-typeset-admonition-border-color--info: #e8211a;
   
   /* Color del texto de la barra superior (Gris oscuro) */
   --md-header-fg-color: #5f6368;
