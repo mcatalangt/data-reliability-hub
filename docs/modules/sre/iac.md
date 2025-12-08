@@ -1,20 +1,20 @@
-# SRE Infrastructure as Code (IaC)
+# SRE - Infrastructure as Code (IaC)
 
-Este módulo centraliza las plantillas de **Terraform** diseñadas para desplegar infraestructura segura y compatible con HIPAA en Google Cloud y AWS.
+Este módulo centraliza plantillas de **Terraform** diseñadas para desplegar infraestructura segura y compatible con HIPAA en Google Cloud y AWS.
 
 ## 🏗️ Arquitectura
-El código está modularizado para permitir la reutilización en diferentes entornos (Dev, Staging, Prod).
+El código está modularizado para permitir la reutilización en diferentes entornos (Dev, Staging, Prod) asi como Cloud y On Prem.
 
 !!! info "Stack Tecnológico"
     * **Cloud:** Google Cloud Platform (GCP)
-    * **Herramienta:** Terraform v1.5+
+    * **Herramienta:** Terraform v1.5+, Ansible, GitHub, GitHub Actions, Github Package
     * **Seguridad:** IAM Least Privilege, VPC Service Controls
 
 ## 📂 Acceso al Código
 
-El código fuente completo se encuentra en el submódulo `01-infrastructure-as-code` de nuestro repositorio central.
+El código fuente completo se encuentra en el submódulo `data-reliability-hub` nuestro repositorio central.
 
-[Ver Código Fuente en GitHub :octicons-link-external-16:](https://github.com/mcatalangt/data-reliability-hub/tree/main/01-infrastructure-as-code){ .md-button .md-button--primary }
+[Ver Código Fuente en GitHub :octicons-link-external-16:](https://github.com/mcatalangt/data-reliability-hub){ .md-button .md-button--primary }
 
 ---
 
@@ -22,5 +22,8 @@ El código fuente completo se encuentra en el submódulo `01-infrastructure-as-c
 
 | Módulo | Descripción | Estado |
 | :--- | :--- | :---: |
-| `gcp-secure-baseline` | Configuración base de red y seguridad IAM. | ✅ Stable |
-| `aws-network-hub` | Arquitectura Hub-and-Spoke para VPCs. | 🚧 Beta |
+| `01-iac-postgresql` | Despliegue de BD PostgreSQL en GCE. | ✅ Stable |
+| `02-iac-prefect` | Despliegue de Workflow tool Prefect en GCE. | 🚧 Beta |
+| `03-iac-event-driven` | Despliegue de event driven (PubSub, Kafka, RabbitMQ). | 🚧 Beta |
+| `04-iac-kubernetes` | Despliegue de Kubernetes en GKE. | ✅ Stable |
+| `05-iac-observability` | Despliegue de Grafana Stack en GKE. | ✅ Beta |
