@@ -79,6 +79,8 @@ nav:
       - 'Infrastructure as Code': modules/sre/iac.md
       - 'Observability Stack': modules/sre/observability.md
       - 'Automation Playbooks': modules/sre/automation.md
+      - 'FinOpns Infracots': modules/sre/automation.md
+      - 'Security Best Practices Checkov': modules/sre/security.md
   
   - 'Google Data Platform Standards':
       - 'Infrastructure as Code': modules/data/iac.md
