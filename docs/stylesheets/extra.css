@@ -75,13 +75,14 @@ h1, h2, h3 {
 /* Ajuste específico para el icono dentro del botón (para que no quede grande) */
 .md-button .twemoji {
     height: 0.9em !important;
+    color-background: #1a73e8 !important;
 }
 
 
 .md-typeset .admonition.info > .admonition-title {
     /* Esto le pone el mismo color pero muy clarito (10% opacidad) para que se vea elegante */
-    background-color: rgba(7, 66, 162, 0.1) !important;
-    
+    background-color: rgba(239, 241, 243, 0.1) !important;
+    color:#1a73e8 !important;
     /* Asegura que el borde del título también coincida */
     border-color: #58e81a !important;
 }
