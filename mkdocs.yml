@@ -93,3 +93,13 @@ nav:
 # HOJAS DE ESTILO EXTRA
 extra_css:
   - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/macogt/
+      name: Marco Catalán on LinkedIn
+    
+    - icon: fontawesome/brands/github
+      link: https://github.com/mcatalangt
+      name: My GitHub Profile
