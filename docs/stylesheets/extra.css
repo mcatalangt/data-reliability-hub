@@ -43,7 +43,7 @@ h1, h2, h3 {
     height: 80px !important;
     /* 2. Ancho automático: Esto asegura que el logo no se deforme */
     width: auto !important;
-    margin-right: 4px !important;
+    margin-right: 2px !important;
     /* 3. (Opcional) Ajuste vertical fino.
        Si al agrandarlo se ve muy arriba o muy abajo respecto al texto,
        descomenta la línea de abajo y juega con valores negativos (subir)
