@@ -70,6 +70,8 @@ h1, h2, h3 {
     
     /* 4. (Opcional) Si quieres esquinas más redondeadas */
     border-radius: 4px !important; 
+    color: #1a73e8 !important;
+    color-background: #ffffff !important;
 }
 
 /* Ajuste específico para el icono dentro del botón (para que no quede grande) */
