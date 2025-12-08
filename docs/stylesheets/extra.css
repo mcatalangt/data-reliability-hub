@@ -80,7 +80,7 @@ h1, h2, h3 {
 
 .md-typeset .admonition.info > .admonition-title {
     /* Esto le pone el mismo color pero muy clarito (10% opacidad) para que se vea elegante */
-    background-color: rgba(232, 26, 174, 0.1) !important;
+    background-color: rgba(14, 92, 217, 0.1) !important;
     
     /* Asegura que el borde del título también coincida */
     border-color: #58e81a !important;
