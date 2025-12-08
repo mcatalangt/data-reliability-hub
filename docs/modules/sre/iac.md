@@ -22,8 +22,8 @@ El código fuente completo se encuentra en el submódulo `data-reliability-hub` 
 
 | Módulo | Descripción | Estado | Repositorio |
 | :--- | :--- | :---: | :--- |
-| `01-iac-postgresql` | Despliegue de BD PostgreSQL en GCE. | ✅ Stable | https://github.com/mcatalangt/data-reliability-hub/tree/main/01-iac-postgresql |
-| `02-iac-prefect` | Despliegue de Workflow tool Prefect en GCE. | 🚧 Beta | https://github.com/mcatalangt/data-reliability-hub/tree/main/02-iac-prefect |
-| `03-iac-event-driven` | Despliegue de event driven (PubSub, Kafka, RabbitMQ). | 🚧 Beta | https://github.com/mcatalangt/data-reliability-hub/tree/main/03-iac-event-driven |
-| `04-iac-kubernetes` | Despliegue de Kubernetes en GKE. | ✅ Stable | https://github.com/mcatalangt/data-reliability-hub/tree/main/04-iac-kubernetes |
-| `05-iac-observability` | Despliegue de Grafana Stack en GKE. | ✅ Beta | https://github.com/mcatalangt/data-reliability-hub/tree/main/05-iac-observability |
+| `01-iac-postgresql` | Despliegue de BD PostgreSQL en GCE. | ✅ Stable | [Código Fuente en GitHub :octicons-link-external-16:](https://github.com/mcatalangt/data-reliability-hub/tree/main/01-iac-postgresql |
+| `02-iac-prefect` | Despliegue de Workflow tool Prefect en GCE. | 🚧 Beta | [Código Fuente en GitHub :octicons-link-external-16:](https://github.com/mcatalangt/data-reliability-hub/tree/main/02-iac-prefect |
+| `03-iac-event-driven` | Despliegue de event driven (PubSub, Kafka, RabbitMQ). | 🚧 Beta | [Código Fuente en GitHub :octicons-link-external-16:](https://github.com/mcatalangt/data-reliability-hub/tree/main/03-iac-event-driven |
+| `04-iac-kubernetes` | Despliegue de Kubernetes en GKE. | ✅ Stable | [Código Fuente en GitHub :octicons-link-external-16:](https://github.com/mcatalangt/data-reliability-hub/tree/main/04-iac-kubernetes |
+| `05-iac-observability` | Despliegue de Grafana Stack en GKE. | ✅ Beta | [Código Fuente en GitHub :octicons-link-external-16:](https://github.com/mcatalangt/data-reliability-hub/tree/main/05-iac-observability |
