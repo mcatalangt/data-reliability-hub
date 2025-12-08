@@ -84,6 +84,10 @@ nav:
       - 'Infrastructure as Code': modules/data/iac.md
       - 'Observability Stack': modules/data/observability.md
       - 'Automation Playbooks': modules/data/automation.md
+  
+  - 'Google IA Platform Standards':
+      - 'IA Google components': modules/ia/components.md
+      - 'IA Infrastructure as code': modules/ia/iac.md
 
   - 'Engineering Blog':
       - blog/index.md  # El índice del blog se genera solo
