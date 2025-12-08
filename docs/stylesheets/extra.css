@@ -90,3 +90,7 @@ h1, h2, h3 {
 .md-typeset .admonition.info, .md-typeset details.info{
     border-color: #1a73e8 !important;
 }
+
+.md-typeset .info>.admonition-title:before, .md-typeset .info>summary:before {
+    background-color: #1a73e8;  !important;
+}   
