@@ -2,6 +2,8 @@
   /* Forzar la barra superior (Header) a Blanco */
   --md-primary-fg-color: #ffffff;
   --md-primary-bg-color: #ffffff;
+  --md-admonition-icon--info: #1a73e8; 
+  --md-typeset-admonition-border-color--info: #1a73e8;
   
   /* Color del texto de la barra superior (Gris oscuro) */
   --md-header-fg-color: #5f6368;
@@ -75,4 +77,13 @@ h1, h2, h3 {
 /* Ajuste específico para el icono dentro del botón (para que no quede grande) */
 .md-button .twemoji {
     height: 0.9em !important;
+}
+
+
+.md-typeset .admonition.info > .admonition-title {
+    /* Esto le pone el mismo color pero muy clarito (10% opacidad) para que se vea elegante */
+    background-color: rgba(26, 115, 232, 0.1) !important;
+    
+    /* Asegura que el borde del título también coincida */
+    border-color: #1a73e8 !important;
 }
