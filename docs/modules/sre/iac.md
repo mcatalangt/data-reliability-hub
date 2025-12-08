@@ -14,7 +14,7 @@ El código está modularizado para permitir la reutilización en diferentes ento
 
 El código fuente completo se encuentra en el submódulo `data-reliability-hub` nuestro repositorio central.
 
-[Ver Código Fuente en GitHub :octicons-link-external-16:](https://github.com/mcatalangt/data-reliability-hub){ .md-button .md-button--primary }
+[Código Fuente en GitHub :octicons-link-external-16:](https://github.com/mcatalangt/data-reliability-hub){ .md-button  }
 
 ---
 
