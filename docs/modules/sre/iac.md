@@ -2,7 +2,7 @@
 
 Este módulo centraliza plantillas de **Terraform** diseñadas para desplegar infraestructura segura y compatible con HIPAA en Google Cloud y AWS.
 
-## 🏗️ Arquitectura
+## Arquitectura
 El código está modularizado para permitir la reutilización en diferentes entornos (Dev, Staging, Prod) asi como Cloud y On Prem.
 
 !!! info "Stack Tecnológico"
@@ -10,7 +10,7 @@ El código está modularizado para permitir la reutilización en diferentes ento
     * **Herramienta:** Terraform v1.5+, Ansible, GitHub, GitHub Actions, Github Package
     * **Seguridad:** IAM Least Privilege, VPC Service Controls
 
-## 📂 Acceso al Código
+## Acceso al Código
 
 El código fuente completo se encuentra en el submódulo `data-reliability-hub` nuestro repositorio central.
 
