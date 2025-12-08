@@ -57,3 +57,22 @@ h1, h2, h3 {
         margin-left: 8px;
     }
 }
+
+.md-button {
+    /* 1. Reduce el tamaño del texto (por defecto es aprox 0.8rem) */
+    font-size: 0.7rem !important;
+    
+    /* 2. Reduce el espacio interno (Arriba/Abajo  Izquierda/Derecha) */
+    padding: 0.4em 1em !important;
+    
+    /* 3. Ajusta la altura de línea para que se vea más delgado */
+    line-height: 1.4 !important;
+    
+    /* 4. (Opcional) Si quieres esquinas más redondeadas */
+    border-radius: 4px !important; 
+}
+
+/* Ajuste específico para el icono dentro del botón (para que no quede grande) */
+.md-button .twemoji {
+    height: 0.9em !important;
+}
