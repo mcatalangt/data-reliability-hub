@@ -1,6 +1,6 @@
 # SRE - Infrastructure as Code (IaC)
 
-Esta sección centraliza plantillas de :simple-terraform: [Terraform](https://www.terraform.io/), :simple-ansible: [Ansible](https://docs.ansible.com/#get_started), GitHub Actions (IC) diseñadas para la creacion de recursos de infraestructura segura en :simple-googlecloud: [Google Cloud](https://cloud.google.com/), AWS y On-Prem y la configuración de herramientas para arquitecturas de alta disponibilidad.
+Esta sección centraliza plantillas de :simple-terraform: [Terraform](https://www.terraform.io/), [Ansible](https://docs.ansible.com/#get_started), GitHub Actions (IC) diseñadas para la creacion de recursos de infraestructura segura en [Google Cloud](https://cloud.google.com/), AWS y On-Prem y la configuración de herramientas para arquitecturas de alta disponibilidad.
 
 ## Arquitectura
 El código está modularizado para permitir la reutilización en diferentes entornos (Dev, Staging, Prod) en Cloud y On-Prem.
@@ -12,7 +12,7 @@ El código está modularizado para permitir la reutilización en diferentes ento
 
 ## Acceso al Código
 
-El código fuente completo se encuentra en el submódulo `data-reliability-hub` nuestro repositorio central.
+El código fuente completo se encuentra en el repositorio `data-reliability-hub` nuestro repositorio central.
 
 [Código Fuente en GitHub :octicons-link-external-16:](https://github.com/mcatalangt/data-reliability-hub){ .md-button  }
 
