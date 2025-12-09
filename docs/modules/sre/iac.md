@@ -1,6 +1,6 @@
 # SRE - Infrastructure as Code (IaC)
 
-Esta sección centraliza plantillas de :simple-terraform: [Terraform](https://www.terraform.io/) + Ansible + GitHub Actions (IC)diseñadas para la creacion de recursos de infraestructura segura en :simple-googlecloud: [Google Cloud](https://cloud.google.com/), AWS y On-Prem y la configuración de herramientas para arquitecturas de alta disponibilidad.
+Esta sección centraliza plantillas de :simple-terraform: [Terraform](https://www.terraform.io/), :simple-ansible: [Ansible](https://docs.ansible.com/#get_started), GitHub Actions (IC) diseñadas para la creacion de recursos de infraestructura segura en :simple-googlecloud: [Google Cloud](https://cloud.google.com/), AWS y On-Prem y la configuración de herramientas para arquitecturas de alta disponibilidad.
 
 ## Arquitectura
 El código está modularizado para permitir la reutilización en diferentes entornos (Dev, Staging, Prod) en Cloud y On-Prem.
