@@ -1,9 +1,9 @@
 # SRE - Infrastructure as Code (IaC)
 
-Esta sección centraliza plantillas de :simple-terraform: [Terraform](https://www.terraform.io/) diseñadas para desplegar infraestructura segura y compatible con HIPAA en :simple-googlecloud: [Google Cloud](https://cloud.google.com/), AWS y On-Prem.
+Esta sección centraliza plantillas de :simple-terraform: [Terraform](https://www.terraform.io/) + Ansible + GitHub Actions (IC)diseñadas para la creacion de recursos de infraestructura segura en :simple-googlecloud: [Google Cloud](https://cloud.google.com/), AWS y On-Prem y la configuración de herramientas para arquitecturas de alta disponibilidad.
 
 ## Arquitectura
-El código está modularizado para permitir la reutilización en diferentes entornos (Dev, Staging, Prod) asi como Cloud y On-Prem.
+El código está modularizado para permitir la reutilización en diferentes entornos (Dev, Staging, Prod) en Cloud y On-Prem.
 
 !!! info "Stack Tecnológico"
     * **Cloud:** Google Cloud Platform (GCP)
