@@ -20,10 +20,10 @@ El código fuente completo se encuentra en el submódulo `data-reliability-hub` 
 
 ### Módulos Incluidos
 
-| Módulo | Descripción | Estado | Repositorio |
-| :--- | :--- | :---: | :--- |
-| `01-iac-postgresql` | Despliegue de BD PostgreSQL en GCE. | ✅ Stable | [GitHub :octicons-link-external-16:](https://github.com/mcatalangt/data-reliability-hub/tree/main/01-iac-postgresql) |
-| `02-iac-prefect` | Despliegue de Workflow tool Prefect en GCE. | 🚧 Beta | [GitHub :octicons-link-external-16:](https://github.com/mcatalangt/data-reliability-hub/tree/main/02-iac-prefect) |
-| `03-iac-event-driven` | Despliegue de event driven (PubSub, Kafka, RabbitMQ). | 🚧 Beta | [GitHub :octicons-link-external-16:](https://github.com/mcatalangt/data-reliability-hub/tree/main/03-iac-event-driven) |
-| `04-iac-kubernetes` | Despliegue de Kubernetes en GKE. | ✅ Stable | [GitHub :octicons-link-external-16:](https://github.com/mcatalangt/data-reliability-hub/tree/main/04-iac-kubernetes) |
-| `05-iac-observability` | Despliegue de Grafana Stack en GKE. | 🚧 Beta | [GitHub :octicons-link-external-16:](https://github.com/mcatalangt/data-reliability-hub/tree/main/05-iac-observability) |
+| Módulo | Descripción | Caso de uso |Estado | Repositorio |
+| :--- | :--- | :---: | :--- | :--- |
+| `01-iac-postgresql` | Creación de BD PostgreSQL en Compute Engine. | Base de datos para pruebas dev | ✅ Stable | [GitHub :octicons-link-external-16:](https://github.com/mcatalangt/data-reliability-hub/tree/main/01-iac-postgresql) |
+| `02-iac-prefect` | Creación de Workflow tool Prefect en  Compute Engine. | Orquestador y Automatizador de flujos de trabajo| 🚧 Beta | [GitHub :octicons-link-external-16:](https://github.com/mcatalangt/data-reliability-hub/tree/main/02-iac-prefect) |
+| `03-iac-event-driven` | Creación de event driven (PubSub, Kafka, RabbitMQ). |Gestion de mensajes y desacoplamiento de sistemas| 🚧 Beta | [GitHub :octicons-link-external-16:](https://github.com/mcatalangt/data-reliability-hub/tree/main/03-iac-event-driven) |
+| `04-iac-kubernetes` | Creación de Kubernetes en GKE. | Orquestador de Contenedores en 5 minutos| ✅ Stable | [GitHub :octicons-link-external-16:](https://github.com/mcatalangt/data-reliability-hub/tree/main/04-iac-kubernetes) |
+| `05-iac-observability` | Creación de Grafana Stack en GKE. | Observabilidad de sistemas transacionales E2E (Logs, Trazas, Metricas y Perfiles)| 🚧 Beta | [GitHub :octicons-link-external-16:](https://github.com/mcatalangt/data-reliability-hub/tree/main/05-iac-observability) |
