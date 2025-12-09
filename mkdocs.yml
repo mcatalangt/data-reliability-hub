@@ -87,9 +87,10 @@ nav:
       - 'Data Observability': modules/data/observability.md
       - 'Security & Governance': modules/data/automation.md
   
-  - 'Google IA Platform Standards':
-      - 'IA Google components': modules/ia/components.md
-      - 'IA Infrastructure as code': modules/ia/iac.md
+  - 'Google IA Platform Standards (MLOps & AI)':
+      - 'AI Infrastructure': modules/ia/components.md
+      - 'Model Observability': modules/ia/iac.md
+      - 'MLOps Automation': modules/ia/mlops.md
 
   - 'Engineering Blog':
       - blog/index.md  # El índice del blog se genera solo
