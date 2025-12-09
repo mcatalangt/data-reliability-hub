@@ -101,3 +101,6 @@ h1, h2, h3 {
 .md-typeset .info>.admonition-title:before, .md-typeset .info>summary:before {
     background-color: #1a73e8;  !important;
 }   
+
+.tabla-ancha th:nth-child(1) { width: 20%; }
+.tabla-ancha th:nth-child(2) { width: 80%; }
