@@ -2,14 +2,14 @@
 
 Implementación de referencia para una pila de observabilidad completa ("Full Stack Observability") utilizando herramientas Open Source.
 
-## 🔭 Componentes
+## Componentes
 
 * **Métricas:** Prometheus + Grafana Mimir
 * **Logs:** Grafana Loki
 * **Traza (Traces):** Grafana Tempo
 * **Recolección:** OpenTelemetry Collector
 
-## 📂 Acceso al Código
+## Acceso al Código
 
 Explora los dashboards JSON y las configuraciones de Docker Compose en el repositorio:
 
