@@ -75,14 +75,14 @@ markdown_extensions:
 nav:
   - Home: index.md
   
-  - 'Google SRE Standards':
+  - 'Google SRE Standards (Core Infrastructure)':
       - 'Infrastructure as Code (IaC)': modules/sre/iac.md
       - 'Observability Stack': modules/sre/observability.md
       - 'Automation Playbooks (Toil Reduction)': modules/sre/automation.md
       - 'FinOps Infracots': modules/sre/findops.md
       - 'Security Best Practices Checkov': modules/sre/security.md
   
-  - 'Google Data Platform Standards':
+  - 'Google Data Platform Standards (Data Reliability)':
       - 'Data Infrastructure': modules/data/iac.md
       - 'Data Observability': modules/data/observability.md
       - 'Security & Governance': modules/data/automation.md
