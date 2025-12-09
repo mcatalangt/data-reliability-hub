@@ -5,6 +5,6 @@ I am a highly skilled Site Reliability Engineer and Data Engineer with over 14 y
 
 
 
-[:fontawesome-brands-linkedin: Conectar en LinkedIn](https://www.linkedin.com/in/macogt/){ .md-button .md-button--primary }
+[:fontawesome-brands-linkedin: Conectar en LinkedIn](https://www.linkedin.com/in/macogt/){ .md-button}
 
 [:fontawesome-brands-linkedin: Ver Perfil](https://www.linkedin.com/in/macogt/){ .md-button }
