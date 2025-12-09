@@ -20,7 +20,7 @@ El código fuente completo se encuentra en el submódulo `data-reliability-hub` 
 
 ### Módulos Incluidos
 
-| Módulo &nbsp;&nbsp;&nbsp;&nbsp; | Descripción | Caso de uso |Estado| Repositorio |
+| Módulo &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Descripción | Caso de uso |Estado| Repositorio |
 | :--- | :--- | :--- | :--- | :--- |
 | `01-iac-postgresql` | Creación de BD PostgreSQL. | Base de datos para pruebas. | ✅ Stable | [GitHub :octicons-link-external-16:](https://github.com/mcatalangt/data-reliability-hub/tree/main/01-iac-postgresql) |
 | `02-iac-prefect` | Creación de Workflow Prefect. | Orquestador y Automatizador de flujos de trabajo| 🚧 Beta | [GitHub :octicons-link-external-16:](https://github.com/mcatalangt/data-reliability-hub/tree/main/02-iac-prefect) |
