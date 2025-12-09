@@ -76,16 +76,16 @@ nav:
   - Home: index.md
   
   - 'Google SRE Standards':
-      - 'Infrastructure as Code': modules/sre/iac.md
+      - 'Infrastructure as Code (IaC)': modules/sre/iac.md
       - 'Observability Stack': modules/sre/observability.md
-      - 'Automation Playbooks': modules/sre/automation.md
-      - 'FinOpns Infracots': modules/sre/findops.md
+      - 'Automation Playbooks (Toil Reduction)': modules/sre/automation.md
+      - 'FinOps Infracots': modules/sre/findops.md
       - 'Security Best Practices Checkov': modules/sre/security.md
   
   - 'Google Data Platform Standards':
-      - 'Infrastructure as Code': modules/data/iac.md
-      - 'Observability Stack': modules/data/observability.md
-      - 'Automation Playbooks': modules/data/automation.md
+      - 'Data Infrastructure': modules/data/iac.md
+      - 'Data Observability': modules/data/observability.md
+      - 'Security & Governance': modules/data/automation.md
   
   - 'Google IA Platform Standards':
       - 'IA Google components': modules/ia/components.md
