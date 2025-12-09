@@ -9,4 +9,4 @@ Colección de playbooks de **Ansible** y scripts de **Python** para la gestión 
 
 ## Acceso al Código
 
-[Ver Código Fuente en GitHub :octicons-link-external-16:](https://github.com/mcatalangt/data-reliability-hub/tree/main/02-configuration-management){ .md-button .md-button--primary }
+[Ver Código Fuente en GitHub :octicons-link-external-16:](https://github.com/mcatalangt/data-reliability-hub/tree/main/02-configuration-management){ .md-button }
