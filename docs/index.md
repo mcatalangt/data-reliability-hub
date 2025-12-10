@@ -1,4 +1,4 @@
-# Bienvenido al Data Reliability Hub
+# Bienvenido a Data Reliability Hub
 
 **Data Reliability Hub** es una biblioteca integral de módulos de Terraform y Ansible, agnósticos a la nube/on-prem listos para producción.
 
