@@ -23,31 +23,30 @@ Para **Data Reliability Hub**, el landscape se divide en capas clave:
 
 **Herramientas clave:** Terraform (Automatización), Ansible, Keycloak (Seguridad/Identidad).
 
-1. Runtime (El Motor)
-Entorno donde se ejecutan los contenedores.
+###2. Runtime (Entorno de ejecución de contenedores)
 
-Qué hace: Gestiona el almacenamiento, la red y la ejecución de contenedores.
+**Qué hace:** Gestiona el almacenamiento, la red y la ejecución de contenedores.
 
-Herramientas clave: Kubernetes (Orquestación), Containerd, CRI-O.
+**Herramientas clave:** Kubernetes (Orquestación), Docker, Containerd, CRI-O.
 
-3. Orchestration & Management (El Cerebro)
-Cómo se conectan y descubren los servicios.
+###3. Orchestration & Management (Conexión entre servicios)
 
-Qué hace: Service Mesh, descubrimiento de servicios y coordinación.
+**Qué hace:** Service Mesh, descubrimiento de servicios y coordinación.
 
-Herramientas clave: Istio, CoreDNS, etcd, Envoy.
+**Herramientas clave:** Istio, CoreDNS, etcd, Envoy.
 
-4. App Definition & Development (El Flujo)
-Herramientas para desarrolladores y pipelines.
+###4. App Definition & Development (IC/DC)
 
-Qué hace: CI/CD, bases de datos y gestión de imágenes.
+**Qué hace:** CI/CD, bases de datos y gestión de imágenes.
 
-Herramientas clave: ArgoCD, Helm, GitLab CI, Harbor.
+**Herramientas clave:** ArgoCD, Helm, GitLab CI, Harbor.
 
-5. Observability & Analysis (Los Ojos del SRE)
+###5. Observability & Analysis
 
-Qué hace: Monitoreo, Logging y Tracing para saber qué pasa en tiempo real.
+**Qué hace:** Monitoreo, Logging y Tracing para saber qué pasa en tiempo real.
 
-Herramientas clave: Prometheus, Grafana, ELK Stack (Elasticsearch, Logstash, Kibana), Jaeger.
+**Herramientas clave:** Prometheus, Grafana, ELK Stack (Elasticsearch, Logstash, Kibana), Jaeger.
 
+
+[https://landscape.cncf.io/](https://landscape.cncf.io/)
 ![Cloud Native Landscape](assets/landscape.png){ align=center width="100%" }
