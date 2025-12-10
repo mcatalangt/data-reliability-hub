@@ -19,6 +19,7 @@ Para **Data Reliability Hub**, el landscape se divide en capas clave:
 infraestructura Core.
 
 **Qué hace:** Crea y endurece la base sobre la que corren las apps.
+
 **Herramientas clave:** Terraform (Automatización), Ansible, Keycloak (Seguridad/Identidad).
 
 1. Runtime (El Motor)
