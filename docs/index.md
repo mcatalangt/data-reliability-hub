@@ -9,18 +9,17 @@ Todo el código sigue rigurosamente las mejores prácticas de **SRE**, **DevSecO
 Muchas de las buenas practicas y herramientas son parte del Cloud Native Landscape
 
 
-El Cloud Native Landscape es el "mapa" oficial mantenido por la CNCF (Cloud Native Computing Foundation) que organiza el inmenso ecosistema de herramientas necesarias para construir, desplegar y gestionar aplicaciones modernas en la nube.
+**El Cloud Native Landscape** es el "mapa" oficial mantenido por la **CNCF (Cloud Native Computing Foundation)** que organiza el inmenso ecosistema de herramientas necesarias para construir, desplegar y gestionar aplicaciones modernas en la nube.
 
 En resumen, es la guía definitiva para pasar de servidores tradicionales a arquitecturas de microservicios, contenedores y automatización.
 
-Para Data Reliability Hub, el landscape se divide en capas clave:
+Para **Data Reliability Hub**, el landscape se divide en capas clave:
 
-1. Provisioning (La Base)
+##1. Provisioning (La Base)
 infraestructura Core.
 
-Qué hace: Crea y endurece la base sobre la que corren las apps.
-
-Herramientas clave: Terraform (Automatización), Ansible, Keycloak (Seguridad/Identidad).
+**Qué hace:** Crea y endurece la base sobre la que corren las apps.
+**Herramientas clave:** Terraform (Automatización), Ansible, Keycloak (Seguridad/Identidad).
 
 1. Runtime (El Motor)
 Entorno donde se ejecutan los contenedores.
