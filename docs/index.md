@@ -5,3 +5,7 @@
 Diseñado para ingenieros que buscan excelencia, este hub permite desplegar desde entornos de pruebas (Sandbox) hasta arquitecturas de **Alta Disponibilidad** (HA) en cuestión de minutos. 
 
 Todo el código sigue rigurosamente las mejores prácticas de **SRE**, **DevSecOps** e **Ingeniería de Datos**, garantizando infraestructuras seguras y resilientes desde el primer despliegue.
+
+Muchas de las buenas practicas y herramientas son parte del Cloud Native Landscape
+
+![Cloud Native Landscape](assets/landscape.png){ align=center width="100%" }
