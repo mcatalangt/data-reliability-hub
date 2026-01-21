@@ -1,0 +1,106 @@
+:root {
+  /* Forzar la barra superior (Header) a Blanco */
+  --md-primary-fg-color: #ffffff;
+  --md-primary-bg-color: #ffffff;
+  
+  /* Color del texto de la barra superior (Gris oscuro) */
+  --md-header-fg-color: #5f6368;
+  --md-header-bg-color: #ffffff;
+}
+
+/* Forzar que el título del sitio sea Azul Google */
+.md-header__title, .md-header__button {
+    color: #1a73e8 !important;
+}
+
+/* Pestañas (Tabs) en blanco también */
+.md-tabs {
+    background-color: #ffffff !important;
+    color: #5f6368 !important;
+    border-bottom: 1px solid #dadce0;
+}
+
+/* Títulos H1, H2 azules */
+h1, h2, h3 {
+    color: #1a73e8 !important;
+}
+
+/* Arreglo para que los iconos de búsqueda se vean en fondo blanco */
+.md-search__input {
+    background-color: #f1f3f4 !important;
+}
+
+/* --- AJUSTE DE TAMAÑO DEL LOGO --- */
+
+/* Apuntamos específicamente a la imagen dentro del botón del logo */
+.md-header__button.md-logo img {
+    /* 1. Altura: Aumenta este valor para hacerlo más grande.
+       El valor por defecto es pequeño (aprox 24px).
+       Prueba con 48px, 56px o incluso 64px. */
+    /*height: 80px !important; */
+    overflow: visible !important;
+    /* Le decimos que su altura se adapte al contenido */
+    height: 80px !important;
+    /* 2. Ancho automático: Esto asegura que el logo no se deforme */
+    width: auto !important;
+    margin-right: 2px !important;
+    /* 3. (Opcional) Ajuste vertical fino.
+       Si al agrandarlo se ve muy arriba o muy abajo respecto al texto,
+       descomenta la línea de abajo y juega con valores negativos (subir)
+       o positivos (bajar) de margen. */
+    /* margin-top: -4px !important; */
+}
+
+/* (Opcional) Si el logo queda muy pegado al borde izquierdo en móvil */
+@media screen and (max-width: 76.1875em) {
+    .md-header__button.md-logo {
+        margin-left: 8px;
+    }
+}
+
+.md-typeset  .md-button {
+    /* 1. Reduce el tamaño del texto (por defecto es aprox 0.8rem) */
+    font-size: 0.7rem !important;
+    
+    /* 2. Reduce el espacio interno (Arriba/Abajo  Izquierda/Derecha) */
+    padding: 0.4em 1em !important;
+    
+    /* 3. Ajusta la altura de línea para que se vea más delgado */
+    line-height: 1.4 !important;
+    
+    /* 4. (Opcional) Si quieres esquinas más redondeadas */
+    border-radius: 4px !important; 
+    color: #1a73e8 !important;
+    color-background: #ffffff !important;
+    border-width: 0.1em;
+}
+
+/* Ajuste específico para el icono dentro del botón (para que no quede grande) */
+.md-button .twemoji {
+    height: 0.9em !important;
+    color: #1a73e8 !important;
+    color-background: #ffffff !important;
+}
+
+.md-button:hover {
+    background-color: #f6f6f6 !important;
+}
+
+.md-typeset .admonition.info > .admonition-title {
+    /* Esto le pone el mismo color pero muy clarito (10% opacidad) para que se vea elegante */
+    background-color: rgba(215, 216, 218, 0.1) !important;
+    color:#1a73e8 !important;
+    font-size: 0.9rem !important;
+    /* Asegura que el borde del título también coincida */
+}
+
+.md-typeset .admonition.info, .md-typeset details.info{
+    border-color: #1a73e8 !important;
+}
+
+.md-typeset .info>.admonition-title:before, .md-typeset .info>summary:before {
+    background-color: #1a73e8;  !important;
+}   
+
+.table th:nth-child(1) { width: 20%; }
+.table th:nth-child(2) { width: 80%; }
