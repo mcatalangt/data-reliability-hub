@@ -15,12 +15,14 @@ El código está modularizado para permitir la reutilización en diferentes ento
         Dividirlos en fragmentos (chunks)
 
         Convertirlos en embeddings
-        
+
         Consultarlos de forma inteligente usando un LLM
 
         **En pocas palabras:**
 
         👉 LlamaIndex se encarga de preparar, organizar y consultar tus datos usando IA.
+
+
 
 
     * **Qdrant:**  Es una base de datos vectorial. Está diseñada para guardar y buscar embeddings (vectores numéricos que representan significado).
