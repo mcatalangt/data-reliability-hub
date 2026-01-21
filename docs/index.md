@@ -1,8 +1,8 @@
 # Bienvenido a Data Reliability Hub
 
-**Data Reliability Hub** es una biblioteca integral de módulos de Terraform y Ansible, agnósticos a la nube/on-prem listos para producción.
+**Data Reliability Hub** es una biblioteca integral de módulos de :simple-terraform: [Terraform](https://www.terraform.io/), [Ansible](https://docs.ansible.com/#get_started) agnósticos a la nube/on-prem listos para producción.
 
-Diseñado para ingenieros que buscan excelencia, este hub permite desplegar desde entornos de pruebas (Sandbox) hasta arquitecturas de **Alta Disponibilidad** (HA) en cuestión de minutos. 
+Diseñado para ingenieros que buscan agilidad, este hub permite desplegar desde entornos de pruebas (Sandbox) hasta arquitecturas de **Alta Disponibilidad** (HA) en cuestión de minutos. 
 
 Todo el código sigue rigurosamente las mejores prácticas de **SRE**, **DevSecOps** e **Ingeniería de Datos**, garantizando infraestructuras seguras y resilientes desde el primer despliegue.
 
@@ -11,7 +11,7 @@ Muchas de las buenas practicas y herramientas son parte del Cloud Native Landsca
 
 ##Cloud Native Landscape
 
-es el "mapa" oficial mantenido por la **CNCF (Cloud Native Computing Foundation)** que organiza el inmenso ecosistema de herramientas necesarias para construir, desplegar y gestionar aplicaciones modernas en la nube.
+Es el "mapa" oficial mantenido por la **CNCF (Cloud Native Computing Foundation)** que organiza el inmenso ecosistema de herramientas necesarias para construir, desplegar y gestionar aplicaciones modernas en la nube.
 
 En resumen, es la guía definitiva para pasar de servidores tradicionales a arquitecturas de microservicios, contenedores y automatización.
 
